@@ -1,5 +1,5 @@
 from database.db import get_connection
-from .entities.Movie import Movie
+from src.routes.MoviesRoutes import Movie
 
 
 class MovieModel():
